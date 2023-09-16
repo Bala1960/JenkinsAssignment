@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "desg": {
+      "type": "string"
+    },
+    "Salary": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "desg",
+    "Salary",
+    "department"
+    
+  ]
+}
